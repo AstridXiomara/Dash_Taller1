@@ -22,7 +22,7 @@ app.config.suppress_callback_exceptions = True
 # Load data from csv
 def load_data():
     # To do: Completar la función 
-    
+    return None
 
 # Cargar datos
 data = load_data()
