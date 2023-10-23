@@ -25,7 +25,6 @@ def load_data():
     data=pd.read_csv('/Users/xiomararodriguez/Documents/Despliegue/Dash/Datos_energia.csv')
     data['time']=pd.to_datetime(data['time'])
     data.set_index('time', inplace=True)
-    print('hola')
     return data
 
 # Cargar datos
